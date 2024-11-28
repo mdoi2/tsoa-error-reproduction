@@ -1,0 +1,22 @@
+{
+  "controllerPathGlobs": ["src/controllers/*Controller.ts"],
+  "noImplicitAdditionalProperties": "silently-remove-extras",
+  "spec": {
+    "outputDirectory": ".",
+    "specFileBaseName": "openapi",
+    "specVersion": 3,
+    "spec": {
+      "openapi": "3.0.3"
+    },
+    "basePath": "/",
+    "yaml": true
+  },
+  "routes": {
+    "routesDir": "src/routes",
+    "routesFileName": "tsoaRoutes.ts",
+    "basePath": "/",
+    "noWriteIfUnchanged": true,
+    "middleware": "koa",
+    "esm": true
+  }
+}

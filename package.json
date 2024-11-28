@@ -1,0 +1,17 @@
+{
+  "name": "tsoa-error-reproduction",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "tsoa": "tsoa spec-and-routes"
+  },
+  "dependencies": {
+    "@koa/router": "^13.1.0",
+    "tsoa": "^6.5.1"
+  },
+  "devDependencies": {
+    "@types/koa__router": "^12.0.4",
+    "typescript": "^5.7.2"
+  }
+}
